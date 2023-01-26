@@ -1,0 +1,453 @@
+<!DOCTYPE html>
+<!-- Vous etes curieux ?
+Vous pouvez aller voir ce qui ce passe ici à vos risques et périls.
+Ce portfolio est mon tout premier projet de webdev, il y a probablement beaucoup de sacrileges et absurditées dans ce code.
+Si vous tenez malgrés tout à vous y aventurer je vous souhaite une bonne lecture.-->
+<html lang="fr">
+	<head>
+		<title>Portfolio Melchior</title>
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta charset="UTF-8" />
+		<meta name="description" content="Portfolio Graphique 2022, Accueil" />
+		<link rel="shortcut icon" href="./images/logos/favicon.ico?v=1" type="image/x-icon"/>
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100;200;300;400;500&display=swap" rel="stylesheet"> 
+		<style> @import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100;200;300;400;500&display=swap'); </style>
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;0,700;0,900;1,300&display=swap" rel="stylesheet"> 
+		<style>
+			@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;0,700;0,900;1,300&display=swap');
+			</style> 
+		<link rel="stylesheet" href="./css/maintemplate.css">
+		<script src="./js/maintemplate.js"defer></script>
+		
+
+	</head>
+	<body>
+        <header class="header">
+			<section id="hero" class="hero">
+				<div class="hero__item">
+					<div class="container">
+							<!--<div class="hero__item left">
+								<span>Artiste technicien multimédia</span>
+								<h1 class="title">BIENVENUE SUR MON PORTFOLIO!</h1>
+								<p>Faites comme chez vous !</p>
+							</div>-->
+							<div class="hero__avatar">
+								<img src="./images/logos/pdp_CV_maj_3_half.png"      
+								 alt="Melchior - Artiste Technicien">	 
+							</div>
+							<div class="hero__logo">
+								<ul class="menu list-unstyled">
+									<li>Melchior</li>
+								</ul>
+							</div>
+							<div class="hero__description">
+								<ul class="menu list-unstyled">
+									<li>Artiste technicien multimédia</li>
+								</ul>
+							</div>
+					</div>
+				</div>
+			</section>
+			<section id="menu">
+				<div class="container">
+					<div class="socials">
+						<ul class="socials list-unstyled">
+							<li>
+								<a href="https://www.instagram.com/appi_hd" target="_blank">		
+									<svg width="25" class="icon__instagram" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path d="M224.1 141c-63.6 0-114.9 51.3-114.9 114.9s51.3 114.9 114.9 114.9S339 319.5 339 255.9 287.7 141 224.1 141zm0 189.6c-41.1 0-74.7-33.5-74.7-74.7s33.5-74.7 74.7-74.7 74.7 33.5 74.7 74.7-33.6 74.7-74.7 74.7zm146.4-194.3c0 14.9-12 26.8-26.8 26.8-14.9 0-26.8-12-26.8-26.8s12-26.8 26.8-26.8 26.8 12 26.8 26.8zm76.1 27.2c-1.7-35.9-9.9-67.7-36.2-93.9-26.2-26.2-58-34.4-93.9-36.2-37-2.1-147.9-2.1-184.9 0-35.8 1.7-67.6 9.9-93.9 36.1s-34.4 58-36.2 93.9c-2.1 37-2.1 147.9 0 184.9 1.7 35.9 9.9 67.7 36.2 93.9s58 34.4 93.9 36.2c37 2.1 147.9 2.1 184.9 0 35.9-1.7 67.7-9.9 93.9-36.2 26.2-26.2 34.4-58 36.2-93.9 2.1-37 2.1-147.8 0-184.8zM398.8 388c-7.8 19.6-22.9 34.7-42.6 42.6-29.5 11.7-99.5 9-132.1 9s-102.7 2.6-132.1-9c-19.6-7.8-34.7-22.9-42.6-42.6-11.7-29.5-9-99.5-9-132.1s-2.6-102.7 9-132.1c7.8-19.6 22.9-34.7 42.6-42.6 29.5-11.7 99.5-9 132.1-9s102.7-2.6 132.1 9c19.6 7.8 34.7 22.9 42.6 42.6 11.7 29.5 9 99.5 9 132.1s2.7 102.7-9 132.1z"/></svg>	
+								</a>
+							</li>
+							<li>
+								<a href="https://www.linkedin.com/in/melchior-fas-garcia-06389b202/" target="_blank">	
+									<svg width="25" class="icon__linkedin" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Pro 6.2.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. --><path d="M416 32H31.9C14.3 32 0 46.5 0 64.3v383.4C0 465.5 14.3 480 31.9 480H416c17.6 0 32-14.5 32-32.3V64.3c0-17.8-14.4-32.3-32-32.3zM135.4 416H69V202.2h66.5V416zm-33.2-243c-21.3 0-38.5-17.3-38.5-38.5S80.9 96 102.2 96c21.2 0 38.5 17.3 38.5 38.5 0 21.3-17.2 38.5-38.5 38.5zm282.1 243h-66.4V312c0-24.8-.5-56.7-34.5-56.7-34.6 0-39.9 27-39.9 54.9V416h-66.4V202.2h63.7v29.2h.9c8.9-16.8 30.6-34.5 62.9-34.5 67.2 0 79.7 44.3 79.7 101.9V416z"/></svg>
+								</a>
+							</li>
+						</ul>
+					</div>
+					<nav class="navbar">
+						<ul class="menu list-unstyled">
+							<div class="menu__top">
+								<li class="menu__accueil"><a href="Portfolio.html">Accueil</a></li>
+								<li class="menu__cv"><a href="cv.html">CV</a></li>
+								<li class="menu__demoreel"><a href="demoreel.html">Demoreel</a></li>
+							</div>
+
+						</ul>
+					</nav>
+				</div>
+			</section>
+			
+		</header>
+
+
+
+		<section id="portfolio__dessin" class="dessin">
+			<div class="container">	
+				<!-- Titre global-->
+				<h1>projets pratiques</h1>
+
+				<!-- patern graphique-->
+
+				<div class="lines__patern">
+					<div class="daimond__patern"></div>
+				</div>
+
+
+				<!-- moitié image / moitié texte-->
+				<div class="image__texte__50">
+					<div class="grid">
+						<div class="grid__image">
+							<a href="#" class="card__link" data-id="modal_9">
+								<img style="object-fit: scale-down" src="./images/dessin/smol/image_dessin_smol_11.jpg" alt="image" class="card__image">
+							</a>
+							<div class="modal" id="modal_9">
+								<div class="modal__content">
+									<a href="#" class="zoom__link" data-id="modal_9">
+										<img class="modal_image" id="modal_9"  src="./images/dessin/big/image_dessin_fat_11.jpg" alt="image">
+									</a>
+									<h2>Modal11</h2>
+									<a href="#" class="exit__link">
+										<div class="img__background">
+										</div>
+									</a>
+								</div>
+								<div class="zoomed__part" id="modal_9">
+									<figure class="zoom__aera" id="modal_9">
+										<img class="zoomimg" id="modal_9" src="./images/dessin/big/image_dessin_fat_11.jpg">
+									</figure>
+								</div>
+							</div>
+						</div>
+						<div class="grid__text">
+							<a href="cv.html">
+								<div class="card__inner">
+									<div class="title__txt__side">
+										<div class="daimond__patern__title__side"></div>
+										<h3>Projet 1</h3>
+				
+									</div>
+									<p class="basic__text"><h1>Salut comment ca var ici, bien ou bien oui je comble pour voir le rendu texte. Comme vous pouvez le voir, il me faut encore un peu de texte, on y est presque, encore un peu, et voila, c'est pas mal! </h1></p>
+								</div>
+							</a>
+						</div>
+					</div>
+				</div>
+
+				<!-- grille d'images assemblées-->
+
+				<div class="images__grilles">
+					<div class="grid">
+						<div class="card"  data-category="images__to__show">
+						</div>
+
+							<li class="card" data-category="images__to__show">
+								<a href="#" class="card__link" data-id="modal_1">
+									<img  src="./images/dessin/smol/image_dessin_smol_11.jpg" alt="image" class="card__image">
+								</a>
+								<div class="modal" id="modal_1">
+									<div class="modal__content">
+										<a href="#" class="zoom__link" data-id="modal_1">
+											<img class="modal_image" id="modal_1"  src="./images/dessin/big/image_dessin_fat_11.jpg" alt="image">
+										</a>
+										<h2>Modal11</h2>
+										<a href="#" class="exit__link">
+											<div class="img__background">
+											</div>
+										</a>
+									</div>
+									<div class="zoomed__part" id="modal_1">
+										<figure class="zoom__aera" id="modal_1">
+											<img class="zoomimg" id="modal_1" src="./images/dessin/big/image_dessin_fat_11.jpg">
+										</figure>
+									</div>
+								</div>
+								
+
+
+							</li>
+							<li class="card" data-category="images__to__show">
+								<a href="#" class="card__link" data-id="modal_2">
+									<img  src="./images/dessin/smol/image_dessin_smol_12.jpg" alt="image" class="card__image">
+								</a>
+								<div class="modal" id="modal_2">
+									<div class="modal__content">
+										<a href="#" class="zoom__link" data-id="modal_2">
+											<img class="modal_image" id="modal_2"  src="./images/dessin/big/image_dessin_fat_12.jpg" alt="image">
+										</a>
+										<h2>Modal11</h2>
+										<a href="#" class="exit__link">
+											<div class="img__background">
+											</div>
+										</a>
+									</div>
+									<div class="zoomed__part" id="modal_2">
+										<figure class="zoom__aera" id="modal_2">
+											<img class="zoomimg" id="modal_2" src="./images/dessin/big/image_dessin_fat_12.jpg">
+										</figure>
+									</div>
+								</div>
+
+							</li>
+							<li class="card" data-category="images__to__show">
+								<a href="#" class="card__link" data-id="modal_3">
+									<img  src="./images/dessin/smol/image_dessin_smol_13.jpg" alt="image" class="card__image">
+								</a>
+								<div class="modal" id="modal_3">
+									<div class="modal__content">
+										<a href="#" class="zoom__link" data-id="modal_3">
+											<img class="modal_image" id="modal_3"  src="./images/dessin/big/image_dessin_fat_13.jpg" alt="image">
+										</a>
+										<h2>Modal11</h2>
+										<a href="#" class="exit__link">
+											<div class="img__background">
+											</div>
+										</a>
+									</div>
+									<div class="zoomed__part" id="modal_3">
+										<figure class="zoom__aera" id="modal_3">
+											<img class="zoomimg" id="modal_3" src="./images/dessin/big/image_dessin_fat_13.jpg">
+										</figure>
+									</div>
+								</div>
+
+							</li>
+							<li class="card" data-category="images__to__show">
+								<a href="#" class="card__link" data-id="modal_4">
+									<img  src="./images/dessin/smol/image_dessin_smol_14.jpg" alt="image" class="card__image">
+								</a>
+								<div class="modal" id="modal_4">
+									<div class="modal__content">
+										<a href="#" class="zoom__link" data-id="modal_4">
+											<img class="modal_image" id="modal_4"  src="./images/dessin/big/image_dessin_fat_14.jpg" alt="image">
+										</a>
+										<h2>Modal11</h2>
+										<a href="#" class="exit__link">
+											<div class="img__background">
+											</div>
+										</a>
+									</div>
+									<div class="zoomed__part" id="modal_4">
+										<figure class="zoom__aera" id="modal_4">
+											<img class="zoomimg" id="modal_4" src="./images/dessin/big/image_dessin_fat_14.jpg">
+										</figure>
+									</div>
+								</div>
+
+							</li>
+							<li class="card" data-category="images__to__show">
+								<a href="#" class="card__link" data-id="modal_5">
+									<img  src="./images/dessin/smol/image_dessin_smol_15.jpg" alt="image" class="card__image">
+								</a>
+								<div class="modal" id="modal_5">
+									<div class="modal__content">
+										<a href="#" class="zoom__link" data-id="modal_5">
+											<img class="modal_image" id="modal_5"  src="./images/dessin/big/image_dessin_fat_15.jpg" alt="image">
+										</a>
+										<h2>Modal11</h2>
+										<a href="#" class="exit__link">
+											<div class="img__background">
+											</div>
+										</a>
+									</div>
+									<div class="zoomed__part" id="modal_5">
+										<figure class="zoom__aera" id="modal_5">
+											<img class="zoomimg" id="modal_5" src="./images/dessin/big/image_dessin_fat_15.jpg">
+										</figure>
+									</div>
+								</div>
+
+							</li>
+							<li class="card" data-category="images__to__show">
+								<a href="#" class="card__link" data-id="modal_6">
+									<img  src="./images/dessin/smol/image_dessin_smol_16.jpg" alt="image" class="card__image">
+								</a>
+								<div class="modal" id="modal_6">
+									<div class="modal__content">
+										<a href="#" class="zoom__link" data-id="modal_6">
+											<img class="modal_image" id="modal_6"  src="./images/dessin/big/image_dessin_fat_16.jpg" alt="image">
+										</a>
+										<h2>Modal11</h2>
+										<a href="#" class="exit__link">
+											<div class="img__background">
+											</div>
+										</a>
+									</div>
+									<div class="zoomed__part" id="modal_6">
+										<figure class="zoom__aera" id="modal_6">
+											<img class="zoomimg" id="modal_6" src="./images/dessin/big/image_dessin_fat_16.jpg">
+										</figure>
+									</div>
+								</div>
+
+							</li>
+							<li class="card" data-category="images__to__show">
+								<a href="#" class="card__link" data-id="modal_7">
+									<img  src="./images/dessin/smol/image_dessin_smol_17.jpg" alt="image" class="card__image">
+								</a>
+								<div class="modal" id="modal_7">
+									<div class="modal__content">
+										<a href="#" class="zoom__link" data-id="modal_7">
+											<img class="modal_image" id="modal_7"  src="./images/dessin/big/image_dessin_fat_17.jpg" alt="image">
+										</a>
+										<h2>Modal11</h2>
+										<a href="#" class="exit__link">
+											<div class="img__background">
+											</div>
+										</a>
+									</div>
+									<div class="zoomed__part" id="modal_7">
+										<figure class="zoom__aera" id="modal_7">
+											<img class="zoomimg" id="modal_7" src="./images/dessin/big/image_dessin_fat_17.jpg">
+										</figure>
+									</div>
+								</div>
+
+							</li>
+						</li>
+						<li class="card" data-category="images__to__show">
+							<a href="#" class="card__link" data-id="modal_8">
+								<img  src="./images/dessin/smol/image_dessin_smol_18.jpg" alt="image" class="card__image">
+							</a>
+							<div class="modal" id="modal_8">
+								<div class="modal__content">
+									<a href="#" class="zoom__link" data-id="modal_8">
+										<img class="modal_image" id="modal_8"  src="./images/dessin/big/image_dessin_fat_18.jpg" alt="image">
+									</a>
+									<h2>Modal11</h2>
+									<a href="#" class="exit__link">
+										<div class="img__background">
+										</div>
+									</a>
+								</div>
+								<div class="zoomed__part" id="modal_8">
+									<figure class="zoom__aera" id="modal_8">
+										<img class="zoomimg" id="modal_8" src="./images/dessin/big/image_dessin_fat_18.jpg">
+									</figure>
+								</div>
+							</div>
+
+						</li>	
+
+
+
+
+
+
+	
+					</div>
+				</div>
+
+				<!-- que du texte-->
+				<div class="only_txt">
+					<div class="title__txt">
+						<div class="daimond__patern__title"></div>
+						<h3>Projet 1</h3>
+
+					</div>
+					<p class="basic__text"><h1>Salut comment ca var ici, bien ou bien oui je comble pour voir le rendu texte. Comme vous pouvez le voir, il me faut encore un peu de texte, on y est presque, encore un peu, et voila, c'est pas mal! </h1></p>
+				</div>
+
+				<!-- 2 images-->
+
+				<div class="grid__deux__images">
+					<div class="une__image">
+						<a href="#" class="card__link" data-id="modal_10">
+							<img style="object-fit: scale-down" src="./images/dessin/smol/image_dessin_smol_7.jpg" alt="image" class="card__image">
+						</a>
+						<div class="modal" id="modal_10">
+							<div class="modal__content">
+								<a href="#" class="zoom__link" data-id="modal_10">
+									<img class="modal_image" id="modal_10"  src="./images/dessin/big/image_dessin_fat_7.jpg" alt="image">
+								</a>
+								<h2>Modal11</h2>
+								<a href="#" class="exit__link">
+									<div class="img__background">
+									</div>
+								</a>
+							</div>
+							<div class="zoomed__part" id="modal_10">
+								<figure class="zoom__aera" id="modal_10">
+									<img class="zoomimg" id="modal_10" src="./images/dessin/big/image_dessin_fat_7.jpg">
+								</figure>
+							</div>
+						</div>
+					</div>
+					<div class="deux__image">
+						<a href="#" class="card__link" data-id="modal_11">
+							<img style="object-fit: scale-down" src="./images/dessin/smol/image_dessin_smol_8.jpg" alt="image" class="card__image">
+						</a>
+						<div class="modal" id="modal_11">
+							<div class="modal__content">
+								<a href="#" class="zoom__link" data-id="modal_11">
+									<img class="modal_image" id="modal_11"  src="./images/dessin/big/image_dessin_fat_8.jpg" alt="image">
+								</a>
+								<h2>Modal11</h2>
+								<a href="#" class="exit__link">
+									<div class="img__background">
+									</div>
+								</a>
+							</div>
+							<div class="zoomed__part" id="modal_11">
+								<figure class="zoom__aera" id="modal_11">
+									<img class="zoomimg" id="modal_11" src="./images/dessin/big/image_dessin_fat_8.jpg">
+								</figure>
+							</div>
+						</div>
+					</div>
+
+				</div>
+
+
+				<!-- Video-->
+
+				<div class="video__solo">
+					<iframe width="560" height="315"
+					src="https://www.youtube.com/embed/qJAWRH8piyY?modestbranding=1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen>
+					</iframe> 
+				</div>
+
+
+				
+					
+			</div>
+		</section>
+		<section id="go_back">
+			<div class="container">
+				<div class="bottom__text">
+					<a href="#menu">Revenir en haut</a>
+				</div>
+			</div>
+		</section>
+
+	</body>
+
+	<footer>
+		<div class="mycoord">
+			<div class="list">
+				<div class="container">
+					<div class="coord__contact">
+						<ul class="menu list-unstyled">
+							<li class="mecontacter">ME CONTACTER :</li>
+						</ul> 
+					</div>
+					<div class="coord__tel">
+						<ul class="menu list-unstyled">
+							<li>melchior.fas@gmail.com</li>
+						</ul>
+					</div>
+					<div class="coord__mail">
+						<ul class="menu list-unstyled">
+							<li>06 52 75 20 40</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+			
+		</div>
+
+	</footer>
+</html>

@@ -1,0 +1,482 @@
+<!DOCTYPE html>
+<!-- Vous etes curieux ?
+Vous pouvez aller voir ce qui ce passe ici à vos risques et périls.
+Ce portfolio est mon tout premier projet de webdev, il y a probablement beaucoup de sacrileges et absurditées dans ce code.
+Si vous tenez malgrés tout à vous y aventurer je vous souhaite une bonne lecture.-->
+<html lang="fr">
+	<head>
+		<title>Portfolio Melchior</title>
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta charset="UTF-8" />
+		<meta name="description" content="Portfolio Graphique 2022, Accueil" />
+		<link rel="shortcut icon" href="./images/logos/favicon.ico?v=1" type="image/x-icon"/>
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100;200;300;400;500&display=swap" rel="stylesheet"> 
+		<style> @import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100;200;300;400;500&display=swap'); </style>
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;0,700;0,900;1,300&display=swap" rel="stylesheet"> 
+		<style>
+			@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;0,700;0,900;1,300&display=swap');
+			</style> 
+		<link rel="stylesheet" href="./css/maintemplate.css">
+		<script src="./js/maintemplate.js"defer></script>
+		
+
+	</head>
+	<body>
+        <header class="header">
+			<section id="hero" class="hero">
+				<div class="hero__item">
+					<div class="container">
+							<!--<div class="hero__item left">
+								<span>Artiste technicien multimédia</span>
+								<h1 class="title">BIENVENUE SUR MON PORTFOLIO!</h1>
+								<p>Faites comme chez vous !</p>
+							</div>-->
+							<div class="hero__avatar">
+								<img src="./images/logos/pdp_CV_maj_3_half.png"      
+								 alt="Melchior - Artiste Technicien">	 
+							</div>
+							<div class="hero__logo">
+								<ul class="menu list-unstyled">
+									<li>Melchior</li>
+								</ul>
+							</div>
+							<div class="hero__description">
+								<ul class="menu list-unstyled">
+									<li>Artiste technicien multimédia</li>
+								</ul>
+							</div>
+					</div>
+				</div>
+			</section>
+			<section id="menu">
+				<div class="container">
+					<div class="socials">
+						<ul class="socials list-unstyled">
+							<li>
+								<a href="https://www.instagram.com/appi_hd" target="_blank">		
+									<svg width="25" class="icon__instagram" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path d="M224.1 141c-63.6 0-114.9 51.3-114.9 114.9s51.3 114.9 114.9 114.9S339 319.5 339 255.9 287.7 141 224.1 141zm0 189.6c-41.1 0-74.7-33.5-74.7-74.7s33.5-74.7 74.7-74.7 74.7 33.5 74.7 74.7-33.6 74.7-74.7 74.7zm146.4-194.3c0 14.9-12 26.8-26.8 26.8-14.9 0-26.8-12-26.8-26.8s12-26.8 26.8-26.8 26.8 12 26.8 26.8zm76.1 27.2c-1.7-35.9-9.9-67.7-36.2-93.9-26.2-26.2-58-34.4-93.9-36.2-37-2.1-147.9-2.1-184.9 0-35.8 1.7-67.6 9.9-93.9 36.1s-34.4 58-36.2 93.9c-2.1 37-2.1 147.9 0 184.9 1.7 35.9 9.9 67.7 36.2 93.9s58 34.4 93.9 36.2c37 2.1 147.9 2.1 184.9 0 35.9-1.7 67.7-9.9 93.9-36.2 26.2-26.2 34.4-58 36.2-93.9 2.1-37 2.1-147.8 0-184.8zM398.8 388c-7.8 19.6-22.9 34.7-42.6 42.6-29.5 11.7-99.5 9-132.1 9s-102.7 2.6-132.1-9c-19.6-7.8-34.7-22.9-42.6-42.6-11.7-29.5-9-99.5-9-132.1s-2.6-102.7 9-132.1c7.8-19.6 22.9-34.7 42.6-42.6 29.5-11.7 99.5-9 132.1-9s102.7-2.6 132.1 9c19.6 7.8 34.7 22.9 42.6 42.6 11.7 29.5 9 99.5 9 132.1s2.7 102.7-9 132.1z"/></svg>	
+								</a>
+							</li>
+							<li>
+								<a href="https://www.linkedin.com/in/melchior-fas-garcia-06389b202/" target="_blank">	
+									<svg width="25" class="icon__linkedin" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Pro 6.2.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. --><path d="M416 32H31.9C14.3 32 0 46.5 0 64.3v383.4C0 465.5 14.3 480 31.9 480H416c17.6 0 32-14.5 32-32.3V64.3c0-17.8-14.4-32.3-32-32.3zM135.4 416H69V202.2h66.5V416zm-33.2-243c-21.3 0-38.5-17.3-38.5-38.5S80.9 96 102.2 96c21.2 0 38.5 17.3 38.5 38.5 0 21.3-17.2 38.5-38.5 38.5zm282.1 243h-66.4V312c0-24.8-.5-56.7-34.5-56.7-34.6 0-39.9 27-39.9 54.9V416h-66.4V202.2h63.7v29.2h.9c8.9-16.8 30.6-34.5 62.9-34.5 67.2 0 79.7 44.3 79.7 101.9V416z"/></svg>
+								</a>
+							</li>
+						</ul>
+					</div>
+					<nav class="navbar">
+						<ul class="menu list-unstyled">
+							<div class="menu__top">
+								<li class="menu__accueil"><a href="Portfolio.html">Accueil</a></li>
+								<li class="menu__cv"><a href="cv.html">CV</a></li>
+								<li class="menu__demoreel"><a href="demoreel.html">Demoreel</a></li>
+							</div>
+
+						</ul>
+					</nav>
+				</div>
+			</section>
+			
+		</header>
+
+
+
+		<section id="portfolio__animation" class="animation">
+			<div class="container">	
+				<!-- Titre global-->
+				<h1 style="margin-top:70px ;">MOTION DESIGN ET FLAT DESIGN</h1>
+
+				<!-- patern graphique-->
+
+				<div class="lines__patern">
+					<div class="daimond__patern"></div>
+				</div>
+
+
+				<!-- moitié image / moitié texte-->
+				<div class="image__texte__50">
+					<div class="grid">
+						<div class="grid__image">
+							<a href="#" class="card__link" data-id="modal_9">
+								<picture>
+									<source srcset="./images/motion_design/big/paysage-lunaire-2-long.jpg" media="(max-width: 1299px)">
+									<img style="object-fit: scale-down" src="./images/motion_design/big/paysage-lunaire-2.jpg" alt="image" class="card__image">
+								</picture>
+								   
+							</a>
+							<div class="modal" id="modal_9">
+								<div class="modal__content">
+									<a href="#" class="zoom__link" data-id="modal_9">
+										<img class="modal_image" id="modal_9"  src="./images/motion_design/big/paysage-lunaire-2.jpg" alt="image">
+									</a>
+									<h2>Modal11</h2>
+									<a href="#" class="exit__link">
+										<div class="img__background">
+										</div>
+									</a>
+								</div>
+								<div class="zoomed__part" id="modal_9">
+									<figure class="zoom__aera" id="modal_9">
+										<img class="zoomimg" id="modal_9" src="./images/motion_design/big/paysage-lunaire-2.jpg">
+									</figure>
+								</div>
+							</div>
+						</div>
+						<div class="grid__text">
+							<div class="card__inner">
+								<div class="title__txt__side">
+									<div class="daimond__patern__title__side"></div>
+									<h3>BONJOUR MONDE</h3>
+				
+								</div>
+								<h6>Objectifs : </h6>
+								<p class="basic__text">Bonjour monde est une chaine Youtube de vulgarisation scientifique et technologique. Mon travail ici consistais a retranscrire les skript de vidéos en visuel clairs et cohérents avec la charte graphique de la chaine. </p>
+								<h6>Enjeux : </h6>
+								<p class="basic__text">De la colonisation de la lune a la ville du de 2100, La chaine explore de nombreux sujets dans un but pédagogique. Les illustrations et animations ont un role central dans la compréhension, l'assimilation et le divertissement du public.
+									Ci dessous vous trouverez quelques extraits dont j'ai eut la charge. </p>
+							</div>
+
+						</div>
+					</div>
+				</div>
+
+
+				<div class="grid__deux__images">
+					<li>
+						<div class="video__solo">
+							<iframe 
+							src="https://www.youtube.com/embed/pdxxTJkienU?rel=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen>
+							</iframe> 
+						</div>
+					</li>
+					
+					<li>
+						<div class="video__solo">
+							<iframe 
+							src="https://www.youtube.com/embed/5J4kVvrG9w4?rel=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen>
+							</iframe> 
+						</div>
+					</li>
+
+				</div>
+
+				<div class="grid__deux__images">
+					<li class="video__li">
+						<div class="video__solo">
+							<iframe 
+							src="https://www.youtube.com/embed/OgN_Fbpy-Ww?rel=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen>
+							</iframe> 
+						</div>
+					</li>
+					
+					<li class="video__li">
+						
+						<a href="#" class="card__link" data-id="modal_26">
+							<img  src="./images/motion_design/big/leleve.jpg" alt="image" class="card__image">
+						</a>
+						<div class="modal" id="modal_26">
+							<div class="modal__content">
+								<a href="#" class="zoom__link" data-id="modal_26">
+									<img class="modal_image" id="modal_26"  src="./images/motion_design/big/leleve.jpg" alt="image">
+								</a>
+								<h2>Modal11</h2>
+								<a href="#" class="exit__link">
+									<div class="img__background">
+									</div>
+								</a>
+							</div>
+							<div class="zoomed__part" id="modal_26">
+								<figure class="zoom__aera" id="modal_26">
+									<img class="zoomimg" id="modal_26" src="./images/motion_design/big/leleve.jpg">
+								</figure>
+							</div>
+						</div>
+					</li>
+				</div>
+				<!-- grille d'images assemblées-->
+
+				<div class="grid__troix__images">
+					<li style="height:290px;">
+						<a href="#" class="card__link" data-id="modal_19">
+							<img  src="./images/motion_design/big/plane.png" alt="image" class="card__image">
+						</a>
+						<div class="modal" id="modal_19">
+							<div class="modal__content">
+								<a href="#" class="zoom__link" data-id="modal_19">
+									<img class="modal_image" id="modal_19"  src="./images/motion_design/big/plane.png" alt="image">
+								</a>
+								<h2>Modal1</h2>
+								<a href="#" class="exit__link">
+									<div class="img__background">
+									</div>
+								</a>
+							</div>
+							<div class="zoomed__part" id="modal_19">
+								<figure class="zoom__aera" id="modal_19">
+									<img class="zoomimg" id="modal_19" src="./images/motion_design/big/plane.png">
+								</figure>
+							</div>
+						</div>
+					</li>
+					
+					<li style="height:290px;">
+
+						<a href="#" class="card__link" data-id="modal_18">
+							<img  src="./images/motion_design/big/école.png" alt="image" class="card__image">
+						</a>
+						<div class="modal" id="modal_18">
+							<div class="modal__content">
+								<a href="#" class="zoom__link" data-id="modal_18">
+									<img class="modal_image" id="modal_18"  src="./images/motion_design/big/école.png" alt="image">
+								</a>
+								<h2>Modal11</h2>
+								<a href="#" class="exit__link">
+									<div class="img__background">
+									</div>
+								</a>
+							</div>
+							<div class="zoomed__part" id="modal_18">
+								<figure class="zoom__aera" id="modal_18">
+									<img class="zoomimg" id="modal_18" src="./images/motion_design/big/école.png">
+								</figure>
+							</div>
+						</div>
+
+					</li>
+					<li style="height:290px;">
+
+						<a href="#" class="card__link" data-id="modal_20">
+							<img  src="./images/motion_design/big/character.png" alt="image" class="card__image">
+						</a>
+						<div class="modal" id="modal_20">
+							<div class="modal__content">
+								<a href="#" class="zoom__link" data-id="modal_20">
+									<img class="modal_image" id="modal_20"  src="./images/motion_design/big/character.png" alt="image">
+								</a>
+								<h2>Modal11</h2>
+								<a href="#" class="exit__link">
+									<div class="img__background">
+									</div>
+								</a>
+							</div>
+							<div class="zoomed__part" id="modal_20">
+								<figure class="zoom__aera" id="modal_20">
+									<img class="zoomimg" id="modal_20" src="./images/motion_design/big/character.png">
+								</figure>
+							</div>
+						</div>
+
+					</li>
+
+				</div>	
+				<p class="basic__text">D'autres extraits liés a Bonjour Monde sont disponibles dans<span class="blue"><a href="3d.html"> la cathégorie 3D.</a></span></p>
+
+				<div class="only_txt" style="margin-top: 10%;">
+					<div class="title__txt">
+						<div class="daimond__patern__title"></div>
+						<h3>LE COUP DU MAITRE</h3>
+
+					</div>
+					<h6>Objectifs : </h6>
+					<p class="basic__text">Créer une courte séquence annimée a partir d'une simple planche de BD pour en faire la promotion.</p>
+					<h6>Enjeux : </h6>
+					<p class="basic__text">Ce projet a été effectué dans le cadre de mon stage de 3eme année de DNMADE, J'ai ici essayé de répondre aux demandes de mes maitres de stages, auteur de la BD.</p>
+				</div>
+				<div class="video__solo">
+					<iframe width="560" height="315"
+					src="https://www.youtube.com/embed/yYHkJvKMu-I?rel=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen>
+					</iframe> 
+				</div>
+
+				<div class="only_txt" style="margin-top: 10%;">
+					<div class="title__txt">
+						<div class="daimond__patern__title"></div>
+						<h3>LE PIC DU MIDI DE BIGORRE</h3>
+
+					</div>
+					<h6>Objectifs : </h6>
+					<p class="basic__text">Workshop de 3 jours durant lesquels nous devions réaliser l’animation 
+						d’un paysage en nous servant des logiciels Adobe Illustrator et After 
+						Effect.</p>
+				</div>
+				<div class="video__solo">
+					<iframe width="560" height="315"
+					src="https://www.youtube.com/embed/qLCInG6NypU?rel=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen>
+					</iframe> 
+				</div>
+
+
+				<div class="only_txt" style="margin-top: 10%;">
+					<div class="title__txt">
+						<div class="daimond__patern__title"></div>
+						<h3>Animation de logos</h3>
+
+					</div>
+					<h6>Enjeux : </h6>
+					<p class="basic__text">Faire preuve de créativité pour donner vie a des logos variés.</p>
+				</div>
+
+				
+				<div class="grid__deux__images">
+					<li>
+						<div class="video__solo">
+							<iframe 
+							src="https://www.youtube.com/embed/iGxJ7cGQdSk?rel=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen>
+							</iframe> 
+						</div>
+					</li>
+					
+					<li>
+						<div class="video__solo">
+							<iframe 
+							src="https://www.youtube.com/embed/_mBt9UIFGsw?rel=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen>
+							</iframe> 
+						</div>
+					</li>
+
+				</div>
+				<div class="grid__deux__images">
+					<li>
+						<div class="video__solo">
+							<iframe 
+							src="https://www.youtube.com/embed/ZdouET3cpFY?rel=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen>
+							</iframe> 
+						</div>
+					</li>
+					
+					<li>
+						<div class="video__solo">
+							<iframe 
+							src="https://www.youtube.com/embed/JGgy2EtkIl4?rel=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen>
+							</iframe> 
+						</div>
+					</li>
+
+
+				</div>
+
+
+				<div class="only_txt" style="margin-top: 10%;">
+					<div class="title__txt">
+						<div class="daimond__patern__title"></div>
+						<h3>Design de logos</h3>
+
+					</div>
+				</div>
+
+				<div class="grid__troix__images">
+					<li style="height:400px;">
+						<a href="#" class="card__link" data-id="modal_3">
+							<img  src="./images/motion_design/smol/Logo_Ederyon_Fond_Transp_smol.png" alt="image" class="card__image">
+						</a>
+						<div class="modal" id="modal_3">
+							<div class="modal__content">
+								<a href="#" class="zoom__link" data-id="modal_3">
+									<img class="modal_image" id="modal_3"  src="./images/motion_design/smol/Logo_Ederyon_Fond_Transp_smol.png" alt="image">
+								</a>
+								<h2>Modal1</h2>
+								<a href="#" class="exit__link">
+									<div class="img__background">
+									</div>
+								</a>
+							</div>
+							<div class="zoomed__part" id="modal_3">
+								<figure class="zoom__aera" id="modal_3">
+									<img class="zoomimg" id="modal_3" src="./images/motion_design/big/Logo_Ederyon_Fond_Transp.png">
+								</figure>
+							</div>
+						</div>
+					</li>
+					
+					<li style="height:400px;">
+
+						<a href="#" class="card__link" data-id="modal_4">
+							<img  src="./images/motion_design/very smol/Le-chat-avec-les-dégradés-pr-insta_very_smol.jpg" alt="image" class="card__image">
+						</a>
+						<div class="modal" id="modal_4">
+							<div class="modal__content">
+								<a href="#" class="zoom__link" data-id="modal_4">
+									<img class="modal_image" id="modal_4"  src="./images/motion_design/very smol/Le-chat-avec-les-dégradés-pr-insta_very_smol.jpg" alt="image">
+								</a>
+								<h2>Modal11</h2>
+								<a href="#" class="exit__link">
+									<div class="img__background">
+									</div>
+								</a>
+							</div>
+							<div class="zoomed__part" id="modal_4">
+								<figure class="zoom__aera" id="modal_4">
+									<img class="zoomimg" id="modal_4" src="./images/motion_design/smol/Le-chat-avec-les-dégradés-pr-insta_smol.jpg">
+								</figure>
+							</div>
+						</div>
+
+					</li>
+					<li style="height:400px;">
+
+						<a href="#" class="card__link" data-id="modal_5">
+							<img  src="./images/motion_design/big/boat_logo.png" alt="image" class="card__image">
+						</a>
+						<div class="modal" id="modal_5">
+							<div class="modal__content">
+								<a href="#" class="zoom__link" data-id="modal_5">
+									<img class="modal_image" id="modal_5"  src="./images/motion_design/big/boat_logo.png" alt="image">
+								</a>
+								<h2>Modal11</h2>
+								<a href="#" class="exit__link">
+									<div class="img__background">
+									</div>
+								</a>
+							</div>
+							<div class="zoomed__part" id="modal_5">
+								<figure class="zoom__aera" id="modal_5">
+									<img class="zoomimg" id="modal_5" src="./images/motion_design/big/boat_logo.png">
+								</figure>
+							</div>
+						</div>
+
+					</li>
+
+				</div>	
+				
+			</div>
+		</section>
+		<section id="go_back">
+			<div class="container">
+				<div class="bottom__text">
+					<a href="#menu">Revenir en haut</a>
+				</div>
+			</div>
+		</section>
+
+	</body>
+	<footer>
+		<div class="mycoord">
+			<div class="list">
+				<div class="container">
+					<div class="coord__contact">
+						<ul class="menu list-unstyled">
+							<li class="mecontacter">ME CONTACTER :</li>
+						</ul> 
+					</div>
+					<div class="coord__tel">
+						<ul class="menu list-unstyled">
+							<li>melchior.fas@gmail.com</li>
+						</ul>
+					</div>
+					<div class="coord__mail">
+						<ul class="menu list-unstyled">
+							<li>06 52 75 20 40</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+			
+		</div>
+
+	</footer>
+</html>
