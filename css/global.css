@@ -25,6 +25,8 @@ a{
 img{
     max-width: 100%;
     height: auto;
+    transition: scale 0.5s, padding-bottom 0.5s ;
+
 }
 
 h3{
@@ -251,6 +253,7 @@ footer{
 
 .card{
     opacity: 1;
+    overflow: hidden;
     transition: opacity 0.5s;
 
 }
@@ -264,6 +267,11 @@ footer{
 .grid__item:hover .card{
     opacity: 0.5;
     background-color: #DDDD;
+}
+
+.grid__item:hover img{
+    scale: 115%;
+    padding-bottom: 4%;
 }
 
 

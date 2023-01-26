@@ -311,9 +311,15 @@ footer{
     opacity: 0.3;
     transition: opacity 0.5s;
     margin-top: 5%;
+    margin: auto;
+    width: 150px;
 }
 .bottom__text:hover{
     opacity: 1;
+}
+
+#go_back .container{
+    margin-top: 5%;
 }
 
 .mycoord{
@@ -437,6 +443,7 @@ footer{
     bottom: 0;
     margin-right: 20px;
     transform: rotate(45deg);
+    min-width: 20px;
 }
 
 @media screen and (max-width:849px) {
@@ -447,12 +454,13 @@ footer{
     }
     .daimond__patern__title{
         height: 20px;
-        width: 40px;
+        width: 20px;
         border: 3px solid #4c53b9;
         top: 0;
         bottom: 0;
         margin-right: 20px;
         transform: rotate(45deg);
+        min-width: 20px;
     }
 }
 
@@ -463,13 +471,13 @@ footer{
     .image__texte__50 .grid{
         display: grid;
         list-style-type: none;
-        flex-wrap: wrap;
         margin-bottom: 0%;
     
     }
     
     .grid__image{
         padding: 2%;
+        grid-row: 2;
     }
     .title__text{
         text-align: left;
@@ -635,7 +643,7 @@ footer{
         text-align: left;
         padding: 2%;
         margin-top: 15%;
-        margin-bottom: 7%;
+        margin-bottom: 1%;
     }
 }
 
