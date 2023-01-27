@@ -25,6 +25,8 @@ a{
 img{
     max-width: 100%;
     height: auto;
+    scale: 1;
+    transition: scale 0.5s;
 }
 
 h3{
@@ -128,6 +130,46 @@ footer{
     overflow: auto;
     margin: 0;
     padding: 0;
+}
+
+
+.bouton{
+    background-color: transparent;
+    border-radius: 5px;
+    border-color: #4c53b9;
+    border-radius:10px;
+    border-width: 3PX;
+    height: 70px;
+    width: 250px;
+    font-family: 'Roboto Slab', serif;
+    font-size: 20px;
+    margin-top: 3%;
+    transition: all 0.5s;
+    color: #4c53b9;
+    scale: 1;
+    cursor:pointer;
+
+}
+
+.card:hover .card__link img{
+    scale: 104%;
+}
+
+.bouton:hover{
+    background-color:#4c53b9;
+    border-radius: 5px;
+    border-color: transparent;
+    border-radius:10px;
+    border-width: 3PX;
+    height: 70px;
+    width: 250px;
+    font-family: 'Roboto Slab', serif;
+    font-size: 20px;
+    margin-top: 3%;
+    color: rgb(255, 255, 255);
+    scale: 1.1;
+    cursor:pointer;
+
 }
 
 /*Hero, logo et melchior parametres*/
