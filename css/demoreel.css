@@ -38,12 +38,13 @@ body {
     font-size: 1.6rem;
     margin: 0;
     text-align:center;
+    background-color: #EEEE;
     
 
 }
 
 header {
-    background:#EEEE ;
+    background:#DDDD ;
     /*border-bottom: 1px solid #aaaaaaaa;*/
 
     font-family: 'Roboto Slab', serif;
