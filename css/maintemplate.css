@@ -63,6 +63,13 @@ h2{
     color: rgb(219, 229, 238);
 }
 
+.h2txt{
+    font-family:'Lato', sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+    color: rgb(219, 229, 238);
+}
+
 @media screen and (min-width:850px) and (max-width:1299px)  {
 
     p{
@@ -624,7 +631,7 @@ footer{
 @media screen and (min-width:850px) and (max-width:1299px)  {
     .images__grilles .grid li{
         list-style-type: none;
-        height: 200px;
+        height: 213px;
         flex-grow: 1;
         padding: 1%;
     
@@ -659,7 +666,7 @@ footer{
     }
     .images__grilles .grid  li{
         list-style-type: none;
-        height: 300px;
+        height: 322px;
         flex-grow: 1;
         padding: 1%;
     
@@ -1019,6 +1026,12 @@ padding: 1%;
 
 
 .modal__content h2{
+    position: relative;
+    z-index: 5;
+    margin: 1%;
+}
+
+.modal__content .h2txt{
     position: relative;
     z-index: 5;
     margin: 1%;
