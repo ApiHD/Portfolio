@@ -1,0 +1,582 @@
+<!DOCTYPE html>
+<!-- Vous etes curieux ?
+Vous pouvez aller voir ce qui ce passe ici à vos risques et périls.
+Ce portfolio est mon tout premier projet de webdev, il y a probablement beaucoup de sacrileges et absurditées dans ce code.
+Si vous tenez malgrés tout à vous y aventurer je vous souhaite une bonne lecture.-->
+<html lang="fr">
+	<head>
+		<title>Portfolio Melchior</title>
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta charset="UTF-8" />
+		<meta name="description" content="Portfolio Graphique 2022, projets d'animation" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="shortcut icon" href="./images/logos/favicon.ico?v=1" type="image/x-icon"/>
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100;200;300;400;500&display=swap" rel="stylesheet"> 
+		<style> @import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100;200;300;400;500&display=swap'); </style>
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;0,700;0,900;1,300&display=swap" rel="stylesheet"> 
+		<style>
+			@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;0,700;0,900;1,300&display=swap');
+			</style> 
+		<link rel="stylesheet" href="./css/maintemplate.css">
+		<script src="./js/maintemplate.js" defer></script>
+		
+
+	</head>
+	<body>
+        <header class="header">
+			<section id="hero" class="hero">
+				<div class="hero__item">
+					<div class="container">
+							<!--<div class="hero__item left">
+								<span>Artiste technicien multimédia</span>
+								<h1 class="title">BIENVENUE SUR MON PORTFOLIO!</h1>
+								<p>Faites comme chez vous !</p>
+							</div>-->
+							<div class="hero__avatar">
+								<img loading="lazy" src="./images/logos/pdp_CV_maj_3_half.png"      
+								 alt="Melchior - Artiste Technicien">	 
+							</div>
+							<div class="hero__logo">
+								<ul class="menu list-unstyled">
+									<li>Melchior</li>
+								</ul>
+							</div>
+							<div class="hero__description">
+								<ul class="menu list-unstyled">
+									<li>Artiste technicien multimédia</li>
+								</ul>
+							</div>
+					</div>
+				</div>
+			</section>
+			<section id="menu">
+				<div class="container">
+					<div class="socials">
+						<ul class="socials list-unstyled">
+							<li>
+								<a href="https://www.instagram.com/appi_hd" target="_blank">		
+									<svg width="25" class="icon__instagram" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path d="M224.1 141c-63.6 0-114.9 51.3-114.9 114.9s51.3 114.9 114.9 114.9S339 319.5 339 255.9 287.7 141 224.1 141zm0 189.6c-41.1 0-74.7-33.5-74.7-74.7s33.5-74.7 74.7-74.7 74.7 33.5 74.7 74.7-33.6 74.7-74.7 74.7zm146.4-194.3c0 14.9-12 26.8-26.8 26.8-14.9 0-26.8-12-26.8-26.8s12-26.8 26.8-26.8 26.8 12 26.8 26.8zm76.1 27.2c-1.7-35.9-9.9-67.7-36.2-93.9-26.2-26.2-58-34.4-93.9-36.2-37-2.1-147.9-2.1-184.9 0-35.8 1.7-67.6 9.9-93.9 36.1s-34.4 58-36.2 93.9c-2.1 37-2.1 147.9 0 184.9 1.7 35.9 9.9 67.7 36.2 93.9s58 34.4 93.9 36.2c37 2.1 147.9 2.1 184.9 0 35.9-1.7 67.7-9.9 93.9-36.2 26.2-26.2 34.4-58 36.2-93.9 2.1-37 2.1-147.8 0-184.8zM398.8 388c-7.8 19.6-22.9 34.7-42.6 42.6-29.5 11.7-99.5 9-132.1 9s-102.7 2.6-132.1-9c-19.6-7.8-34.7-22.9-42.6-42.6-11.7-29.5-9-99.5-9-132.1s-2.6-102.7 9-132.1c7.8-19.6 22.9-34.7 42.6-42.6 29.5-11.7 99.5-9 132.1-9s102.7-2.6 132.1 9c19.6 7.8 34.7 22.9 42.6 42.6 11.7 29.5 9 99.5 9 132.1s2.7 102.7-9 132.1z"/></svg>	
+								</a>
+							</li>
+							<li>
+								<a href="https://www.linkedin.com/in/melchior-fas-garcia-06389b202/" target="_blank">	
+									<svg width="25" class="icon__linkedin" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Pro 6.2.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. --><path d="M416 32H31.9C14.3 32 0 46.5 0 64.3v383.4C0 465.5 14.3 480 31.9 480H416c17.6 0 32-14.5 32-32.3V64.3c0-17.8-14.4-32.3-32-32.3zM135.4 416H69V202.2h66.5V416zm-33.2-243c-21.3 0-38.5-17.3-38.5-38.5S80.9 96 102.2 96c21.2 0 38.5 17.3 38.5 38.5 0 21.3-17.2 38.5-38.5 38.5zm282.1 243h-66.4V312c0-24.8-.5-56.7-34.5-56.7-34.6 0-39.9 27-39.9 54.9V416h-66.4V202.2h63.7v29.2h.9c8.9-16.8 30.6-34.5 62.9-34.5 67.2 0 79.7 44.3 79.7 101.9V416z"/></svg>
+								</a>
+							</li>
+						</ul>
+					</div>
+					<nav class="navbar">
+						<ul class="menu list-unstyled">
+							<div class="menu__top">
+								<li class="menu__accueil"><a href="index.html">Accueil</a></li>
+								<li class="menu__cv"><a href="cv.html">CV</a></li>
+								<li class="menu__demoreel"><a href="demoreel.html">Demoreel</a></li>
+							</div>
+
+						</ul>
+					</nav>
+				</div>
+			</section>
+			
+		</header>
+
+
+
+
+
+		
+		<section id="portfolio__animation" class="animation">
+			<div class="container">	
+				<!-- Titre global-->
+				<h1 style="margin-top:70px ;">3D procédurale</h1>
+
+				<!-- patern graphique-->
+
+				<div class="lines__patern"style="margin-bottom: 10%;">
+					<div class="daimond__patern"></div>
+				</div>
+
+								<!-- moitié image / moitié texte-->
+				<div class="image__texte__50">
+					<div class="grid">
+						<div class="grid__image card">
+							<a href="#" class="card__link" data-id="modal_9">
+
+								<picture>
+									<source srcset="./images/animation/smol/image_animation_smol_14.jpg" media="(max-width: 1299px)">
+									<img loading="lazy" style="object-fit: scale-down" src="./images/technical_art/smol/image_technical_art_smol_10.jpg" alt="image" class="card__image">
+								</picture>
+									   
+							</a>
+							<div class="modal" id="modal_9">
+								<div class="modal__content">
+									<a href="#" class="zoom__link" data-id="modal_9">
+										<img loading="lazy" class="modal_image" id="modal_9"  src="./images/technical_art/smol/image_technical_art_smol_10.jpg" alt="image">
+									</a>
+									<h2>Le bidonville procédural</h2>
+									<a href="#" class="exit__link">
+										<div class="img__background">
+										</div>
+									</a>
+								</div>
+								<div class="zoomed__part" id="modal_9">
+									<figure class="zoom__aera" id="modal_9">
+										<img loading="lazy" class="zoomimg" id="modal_9" src="./images/technical_art/big/image_technical_art_big_10.jpg">
+									</figure>
+								</div>
+							</div>
+						</div>
+						<div class="grid__text">
+							<div class="card__inner">
+								<div class="title__txt__side">
+									<div class="daimond__patern__title__side"></div>
+									<h3>Bidonville procédural</h3>
+				
+								</div>
+								<h6>Objectifs : </h6>
+								<p class="basic__text">Permettre aux artiste décorateur d'intégrer facilement un ensemble organique de batiments a leur décors tout en ayant la possibilité de pousser leur vision spécifique sur cet ensemble.</p>
+								<h6>Enjeux : </h6>
+								<p class="basic__text">Cet outil a été créé pour le trailer de la série animée La 4ème Planète lors de mon stage chez les Astronautes. "</p>
+							</div>
+
+						</div>
+					</div>
+				</div>
+
+				<div class="video__solo">
+					<iframe width="560" height="315"
+					src="https://www.youtube.com/embed/J54R-fBx0fI?rel=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen>
+					</iframe> 
+				</div>
+
+
+
+
+				<div class="only_txt" style="margin-top: 0%;">
+					<div class="title__txt">
+
+						<h6>Détails techniques: </h6>
+
+					</div>
+					<p class="basic__text">Plusieurs contraintes ont été posées pour accommoder la vision artistique du projet auquel cet outil devait contribuer. De manière notable, chaque maison devait être unique, ce système ne passe ainsi pas par un ensemble de modèles prés fait. Chaque maison est entièrement générée procéduralement à partir d'un ensemble d'opérations mathématiques et d'aléatoire.</p>
+
+					<p class="basic__text">Pour que ce système soit utile aux artistes, il m'a fallu introduire de nombreuses option ou l'utilisateur peut changer les valeurs du système procédural pour le moduler au gré de sa vision propre. Certains modules plus complexes peuvent permettre à l'utilisateur d'interagir manuellement avec la structure procédurale, en plaçant des routes manuellement par exemple. </p>				
+				</div>
+
+				
+
+
+				<div class="grid__deux__images"style="margin-bottom: 10%">
+					<li class="card" data-category="images__to__show"style="height: 450px;">
+						<a href="#" class="card__link" data-id="modal_2">
+							<img  src="./images/technical_art/smol/image_technical_art_smol_9.jpg" alt="image" class="card__image">
+						</a>
+						<div class="modal" id="modal_2">
+							<div class="modal__content">
+								<a href="#" class="zoom__link" data-id="modal_2">
+									<img class="modal_image" id="modal_2"  src="./images/technical_art/smol/image_technical_art_smol_9.jpg"alt="image">
+								</a>
+								<h2>Extrait du setup de Geometry Nodes du bidonville procédural sur le logiciel Blender.</h2>
+								<a href="#" class="exit__link">
+									<div class="img__background">
+									</div>
+								</a>
+							</div>
+							<div class="zoomed__part" id="modal_2">
+								<figure class="zoom__aera" id="modal_2">
+									<img class="zoomimg" id="modal_2" src="./images/technical_art/big/image_technical_art_big_9.jpg">
+								</figure>
+							</div>
+						</div>
+
+					</li>
+
+					<li class="card" data-category="images__to__show"style="height: 450px;">
+						<a href="#" class="card__link" data-id="modal_6">
+							<img  src="./images/technical_art/smol/image_technical_art_smol_8.jpg" alt="image" class="card__image">
+						</a>
+						<div class="modal" id="modal_6">
+							<div class="modal__content">
+								<a href="#" class="zoom__link" data-id="modal_6">
+									<img class="modal_image" id="modal_6"  src="./images/technical_art/smol/image_technical_art_smol_8.jpg"  alt="image">
+								</a>
+								<h2>Entrées utilisateur du bidonville procédural, les options variées qui peuvent être changées par les artistes pour obtenir le résultat voulu.</h2>
+								<a href="#" class="exit__link">
+									<div class="img__background">
+									</div>
+								</a>
+							</div>
+							<div class="zoomed__part" id="modal_6">
+								<figure class="zoom__aera" id="modal_6">
+									<img class="zoomimg" id="modal_6" src="./images/technical_art/big/image_technical_art_big_8.jpg">
+								</figure>
+							</div>
+						</div>
+					</li>
+
+				</div>
+
+
+				<div class="only_txt" style="margin-top: 10%;">
+					<div class="title__txt">
+						<div class="daimond__patern__title"></div>
+						<h3>Générations de décors de nature non photoréalistes</h3>
+
+					</div>
+					<h6>Objectifs : </h6>
+					<p class="basic__text">Ces outils ont été développés dans le cadre de mon <a href="./pdf_files/memoire_melchior_extended_images.pdf" style="color: #225882; font-weight: bold;" target="_blank">mémoire de Master</a>, où j'explorais des processus de création de décors de bande dessinée en image de synthèse. Le choix d'une approche procédurale permet aux artistes d'exprimer leur créativité spontanée tout en utilisant des outils simples et accessibles.</p>
+					<p class="basic__text">Ces outils viennent s'ancrer dans un ensemble de stratégies permettant d'intégrer l'image de synthèse 3D à un travail de dessin 2D. Les rendus obtenus sont destinés à être extraits de la scène Blender comme calques 2D sur lesquels l'artiste dessinateur peut repasser. Pour faciliter le retour à une étape de dessin, je me suis imposé la contrainte d'un rendu en aplats de couleurs.</p>
+					<h6>Enjeux : </h6>
+					<p class="basic__text">Créer des outils utilisables pour servir de preuve de concept d'une approche procédurale a la création de certains décors de bande dessinée. Penser leur fonctionnement du point de vue de l'utilisateur non technicien.</p>
+				</div>
+
+
+				<!-- moitié image / moitié texte-->
+				<div class="image__texte__50"style="margin-top: 1%;">
+					<div class="grid">
+						<div class="grid__image card">
+							<li style="height: 50%;">
+
+								<video style="width: 100%;" autoplay muted controls loop>
+									<source src="./videos/trunk system_new.mp4" type="video/mp4">
+								  Your browser does not support the video tag.
+								</video> 
+		
+		
+							</li>
+						</div>
+						<div class="grid__text">
+							<div class="card__inner">
+								<div class="title__txt__side">
+									<div class="daimond__patern__title__side_filled"></div>
+									<h6>Le trunk system </h6>
+								</div>
+								<p class="basic__text">Un générateur de tronc d'arbre, j'ai réussi à le lier à un modificateur skin qui permet de facilement créer, bouger et modifier l'épaisseur des branches manuellement, j'ai jugé ce niveau de contrôle nécessaire pour permettre aux artistes de spécifier la composition de leur décor.</p>
+								<p class="basic__text">Le système vient avec de nombreuses options de customisation pour la génération du tronc. Il vient également avec un mode "sapin" qui fait apparaître des branches de sapin.</p>								
+							</div>
+
+						</div>
+					</div>
+				</div>
+				<div class="grid__troix__images" style="margin-bottom: 10%;">
+					<li class="card">
+						<a href="#" class="card__link" data-id="modal_72">
+							<img loading="lazy" src="./images/technical_art/smol/image_technical_art_smol_13.jpg" alt="image" class="card__image">
+						</a>
+						<div class="modal" id="modal_72">
+							<div class="modal__content">
+								<a href="#" class="zoom__link" data-id="modal_72">
+									<img loading="lazy" class="modal_image" id="modal_72"  src="./images/technical_art/smol/image_technical_art_smol_13.jpg" alt="image">
+								</a>
+								<h2>Les 3 différents modes du trunk system.</h2>
+								<a href="#" class="exit__link">
+									<div class="img__background">
+									</div>
+								</a>
+							</div>
+							<div class="zoomed__part" id="modal_72">
+								<figure class="zoom__aera" id="modal_72">
+									<img loading="lazy" class="zoomimg" id="modal_72" src="./images/technical_art/big/image_technical_art_big_13.jpg">
+								</figure>
+							</div>
+						</div>
+					</li>
+					
+					<li class="card">
+
+						<a href="#" class="card__link" data-id="modal_33">
+							<img loading="lazy" src="./images/technical_art/smol/image_technical_art_smol_19.jpg" alt="image" class="card__image">
+						</a>
+						<div class="modal" id="modal_33">
+							<div class="modal__content">
+								<a href="#" class="zoom__link" data-id="modal_33">
+									<img loading="lazy" class="modal_image" id="modal_33"  src="./images/technical_art/big/image_technical_art_big_19.jpg" alt="image">
+								</a>
+								<h2>Les différentes entrées utilisateur du Geometry Node.</h2>
+								<a href="#" class="exit__link">
+									<div class="img__background">
+									</div>
+								</a>
+							</div>
+							<div class="zoomed__part" id="modal_33">
+								<figure class="zoom__aera" id="modal_33">
+									<img loading="lazy" class="zoomimg" id="modal_33" src="./images/technical_art/big/image_technical_art_big_19.jpg">
+								</figure>
+							</div>
+						</div>
+
+					</li>
+					<li class="card">
+
+						<a href="#" class="card__link" data-id="modal_34">
+							<img loading="lazy" src="./images/technical_art/big/image_technical_art_big_1.jpg" alt="image" class="card__image">
+						</a>
+						<div class="modal" id="modal_34">
+							<div class="modal__content">
+								<a href="#" class="zoom__link" data-id="modal_34">
+									<img loading="lazy" class="modal_image" id="modal_34"  src="./images/technical_art/big/image_technical_art_big_1.jpg" alt="image">
+								</a>
+								<h2>Le mode sapin du trunk system.</h2>
+								<a href="#" class="exit__link">
+									<div class="img__background">
+									</div>
+								</a>
+							</div>
+							<div class="zoomed__part" id="modal_34">
+								<figure class="zoom__aera" id="modal_34">
+									<img loading="lazy" class="zoomimg" id="modal_34" src="./images/technical_art/big/image_technical_art_big_1.jpg">
+								</figure>
+							</div>
+						</div>
+
+					</li>
+
+				</div>	
+
+				<div class="image__texte__50"style="margin-top: 1%;">
+					<div class="grid">
+						<div class="grid__text">
+							<div class="card__inner">
+								<div class="title__txt__side">
+									<div class="daimond__patern__title__side_filled"></div>
+									<h6>Le foliage system </h6>
+								</div>
+								<p class="basic__text">Cet outil peut permettre de générer des feuillages. Sur la vidéo d'exemple, il est en mode arbre, c'est-à-dire qu'il va générer des ensembles de feuillages le long de la géométrie donnée par l'utilisateur. Il peut également être utilisé dans son mode de base pour créer des formes de feuillages plus spécifiques.  </p>
+								<p class="basic__text">Cet outil vient avec deux styles de feuillages principaux qui abordent différents niveaux de détails. Un outil alternatif a également été créé qui permet de créer des feuillages bien plus détaillés, avec de nombreux contrôles. Celui ci était malheureusement difficile a contrôler en l'absence de systèmes de contrôleur fiables pour les Geometry Nodes dans la version de Blender où il avait été développé.</p>
+							</div>
+
+						</div>
+						<div class="grid__image card">
+							<li style="height: 50%;">
+
+								<video style="width: 100%;" autoplay muted controls loop>
+									<source src="./videos/leafs system_new.mp4" type="video/mp4">
+								  Your browser does not support the video tag.
+								</video> 
+		
+		
+							</li>
+						</div>
+
+					</div>
+				</div>
+
+				<div class="grid__deux__images"style="margin-bottom: 10%">
+					<li class="card" data-category="images__to__show"style="height: 300px;">
+						<a href="#" class="card__link" data-id="modal_52">
+							<img  src="./images/technical_art/smol/image_technical_art_smol_12.jpg" alt="image" class="card__image">
+						</a>
+						<div class="modal" id="modal_52">
+							<div class="modal__content">
+								<a href="#" class="zoom__link" data-id="modal_52">
+									<img class="modal_image" id="modal_52"  src="./images/technical_art/smol/image_technical_art_smol_12.jpg" alt="image">
+								</a>
+								<h2>Les deux modes de feuillages et les entrées utilisateur du geometry node</h2>
+								<a href="#" class="exit__link">
+									<div class="img__background">
+									</div>
+								</a>
+							</div>
+							<div class="zoomed__part" id="modal_52">
+								<figure class="zoom__aera" id="modal_52">
+									<img class="zoomimg" id="modal_52" src="./images/technical_art/big/image_technical_art_big_12.jpg">
+								</figure>
+							</div>
+						</div>
+
+					</li>
+
+					<li class="card" data-category="images__to__show"style="height: 300px;">
+						<a href="#" class="card__link" data-id="modal_56">
+							<img  src="./images/technical_art/smol/image_technical_art_smol_4.jpg" alt="image" class="card__image">
+						</a>
+						<div class="modal" id="modal_56">
+							<div class="modal__content">
+								<a href="#" class="zoom__link" data-id="modal_56">
+									<img class="modal_image" id="modal_56"  src="./images/technical_art/smol/image_technical_art_smol_4.jpg" alt="image">
+								</a>
+								<h2>Une version alternative du générateur de feuillage, plus orrientée vers la création de feuillages détaillés, plus proches de la caméra.</h2>
+								<a href="#" class="exit__link">
+									<div class="img__background">
+									</div>
+								</a>
+							</div>
+							<div class="zoomed__part" id="modal_56">
+								<figure class="zoom__aera" id="modal_56">
+									<img class="zoomimg" id="modal_56" src="./images/technical_art/big/image_technical_art_big_4.jpg">
+								</figure>
+							</div>
+						</div>
+					</li>
+
+				</div>
+
+
+				<div class="image__texte__50"style="margin-top: 1%;">
+					<div class="grid">
+						<div class="grid__image card">
+							<li style="height: 50%;">
+
+								<video style="width: 100%;" autoplay muted controls loop>
+									<source src="./videos/clouds_system_02_new.mp4" type="video/mp4">
+								  Your browser does not support the video tag.
+								</video> 
+		
+		
+							</li>
+						</div>
+						<div class="grid__text">
+							<div class="card__inner">
+								<div class="title__txt__side">
+									<div class="daimond__patern__title__side_filled"></div>
+									<h6>Le cloud system </h6>
+								</div>
+								<p class="basic__text">Un générateur de nuages, il est constitué d'un générateur de base, similaire au système de feuillages, et de deux sous-systèmes. Le premier, secondary cloud, permet d'ajouter des nuages moins denses autour du nuage de base. Le second, flat clouds, permet de générer des nuages plats en bas du nuage. </p>
+								<p class="basic__text">Ce système exploite le node de matériaux 3D "fresnel" sur les matériaux procéduraux des instances pour obtenir ces formes complexes à partir d'une géométrie simple.</p>
+								<p class="basic__text">Une ancienne version créait l'illusion du volume à partir d'array de face avec des textures alphas variés, elle a été abandonnée, car elle ne respectait pas la charte graphique des aplats de couleur et car gérer les alpha de manière procédurale causait des lenteurs.</p>
+							</div>
+
+						</div>
+					</div>
+				</div>
+
+				<div class="grid__troix__images"style="margin-bottom: 5%">
+					<li class="card" data-category="images__to__show"style="height: 300px;">
+						<a href="#" class="card__link" data-id="modal_62">
+							<img  src="./images/technical_art/smol/image_technical_art_smol_2.jpg" alt="image" class="card__image">
+						</a>
+						<div class="modal" id="modal_62">
+							<div class="modal__content">
+								<a href="#" class="zoom__link" data-id="modal_62">
+									<img class="modal_image" id="modal_62"  src="./images/technical_art/smol/image_technical_art_smol_2.jpg" alt="image">
+								</a>
+								<h2></h2>
+								<a href="#" class="exit__link">
+									<div class="img__background">
+									</div>
+								</a>
+							</div>
+							<div class="zoomed__part" id="modal_62">
+								<figure class="zoom__aera" id="modal_62">
+									<img class="zoomimg" id="modal_62" src="./images/technical_art/big/image_technical_art_big_2.jpg">
+								</figure>
+							</div>
+						</div>
+
+					</li>
+
+					<li class="card" data-category="images__to__show"style="height: 300px;">
+						<a href="#" class="card__link" data-id="modal_66">
+							<img  src="./images/technical_art/big/image_technical_art_big_18.jpg" alt="image" class="card__image">
+						</a>
+						<div class="modal" id="modal_66">
+							<div class="modal__content">
+								<a href="#" class="zoom__link" data-id="modal_66">
+									<img class="modal_image" id="modal_66"  src="./images/technical_art/big/image_technical_art_big_18.jpg" alt="image">
+								</a>
+								<h2></h2>
+								<a href="#" class="exit__link">
+									<div class="img__background">
+									</div>
+								</a>
+							</div>
+							<div class="zoomed__part" id="modal_66">
+								<figure class="zoom__aera" id="modal_66">
+									<img class="zoomimg" id="modal_66" src="./images/technical_art/big/image_technical_art_big_18.jpg">
+								</figure>
+							</div>
+						</div>
+					</li>
+					<li class="card" data-category="images__to__show"style="height: 300px;">
+						<a href="#" class="card__link" data-id="modal_67">
+							<img  src="./images/technical_art/smol/image_technical_art_smol_20.jpg" alt="image" class="card__image">
+						</a>
+						<div class="modal" id="modal_67">
+							<div class="modal__content">
+								<a href="#" class="zoom__link" data-id="modal_67">
+									<img class="modal_image" id="modal_67"  src="./images/technical_art/big/image_technical_art_big_20.jpg" alt="image">
+								</a>
+								<h2></h2>
+								<a href="#" class="exit__link">
+									<div class="img__background">
+									</div>
+								</a>
+							</div>
+							<div class="zoomed__part" id="modal_67">
+								<figure class="zoom__aera" id="modal_67">
+									<img class="zoomimg" id="modal_67" src="./images/technical_art/big/image_technical_art_big_20.jpg">
+								</figure>
+							</div>
+						</div>
+					</li>
+
+				</div>
+
+				<p class="basic__text">Plus de rendus obtenus avec l'usage de ces systemes procéduraux sont consultables dans la cathégorie <a href="./dessin.html" style="color: #225882; font-weight: bold;"target="_blank">dessin</a></p>
+
+				<div class="image__texte__50"style="margin-top: 15%;">
+					<div class="grid">
+						<div class="grid__image card">
+							<li style="height: 50%;">
+
+								<video style="width: 100%;" autoplay muted controls loop>
+									<source src="./videos/Fish system demo.mp4" type="video/mp4">
+								  Your browser does not support the video tag.
+								</video> 
+		
+		
+							</li>
+						</div>
+						<div class="grid__text">
+							<div class="card__inner">
+								<div class="title__txt__side">
+									<div class="daimond__patern__title__side"></div>
+									<h3>Animations procédurales</h3>
+			
+								</div>
+								<h6>Objectifs : </h6>
+								<p class="basic__text">Cette animation a été réalisée dans le cadre de mon stage cher Les Astronautes pour le trailer de 4e Planète. À partir d'une référence, je suis parvenu à reproduire le mouvement aléatoire des poissons dans un aquarium. Je suis parvenu à ajouter un niveau de détail avec des mouvements de nageoire à chaque impulsion. Les mouvements sont générés procéduralement.</p>
+								<h6>Enjeux : </h6>
+								<p class="basic__text">Répondre à la demande du directeur artistique, simplifier l'animation complexe d'une multitude de mouvement aléatoire à l'aide d'une approche procédurale.</p>							
+							</div>
+
+						</div>
+					</div>
+				</div>
+					
+			</div>
+		</section>
+		<section id="go_back">
+			<div class="container">
+				<div class="bottom__text">
+					<a href="#hero">Revenir en haut</a>
+				</div>
+			</div>
+		</section>
+
+	</body>
+	<footer>
+		<div class="mycoord">
+			<div class="list">
+				<div class="container">
+					<div class="coord__contact">
+						<ul class="menu list-unstyled">
+							<li class="mecontacter">ME CONTACTER :</li>
+						</ul> 
+					</div>
+					<div class="coord__tel">
+						<ul class="menu list-unstyled">
+							<li>melchior.fasgarcia@gmail.com</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+			
+		</div>
+
+	</footer>
+</html>

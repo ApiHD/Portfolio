@@ -179,9 +179,15 @@ footer{
 
 }
 
-.card:hover .card__link img{
+.card:hover .card__link img,
+.solo__image:hover img {
     scale: 104%;
 }
+
+.solo__image{
+    padding: 1%;
+}
+
 
 .bouton:hover{
     background-color:#4c53b9;
@@ -408,9 +414,6 @@ footer{
     margin-top: 3%;
 }
 
-.solo__image{
-    padding: 1%;
-}
 
 
 /* Pattern
@@ -516,6 +519,18 @@ footer{
     min-width: 20px;
 }
 
+.daimond__patern__title__side_filled{
+    height: 20px;
+    width: 20px;
+    background-color: #4c53b9; /* couleur du losange */
+    top: 0;
+    bottom: 0;
+    margin-right: 20px;
+    transform: rotate(45deg);
+    min-width: 20px;
+    background-clip: padding-box;
+}
+
 @media screen and (max-width:849px) {
     .title__txt{
         position: relative;
@@ -615,6 +630,10 @@ footer{
     }
 }
 /*----------------------*/
+
+
+
+
 
 /* GRILLE images
 ----------------------*/
@@ -945,6 +964,7 @@ padding: 1%;
     margin: auto;
     max-width: 95%;
     max-height: 95%;
+    width: auto;
 }
 
 .zoom__link{
