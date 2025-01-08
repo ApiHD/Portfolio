@@ -283,6 +283,9 @@ header {
 /* show images
 ----------------------*/
 
+
+
+
 .modal{
     visibility: hidden;
     opacity: 0;
@@ -382,4 +385,51 @@ header {
 .premier__cv__container{
     justify-content: center;
     align-items: center;
+}
+
+
+
+
+/* CV and video of my face*/
+
+/* Ensure the image scales */
+.main-image {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+/* Style for the video in the top-right corner */
+@media screen and (max-width:1299px)  {
+    .corner-video {
+        position: absolute;
+        top: 0;
+        right: 0;
+        margin-top: 8%;
+        margin-right: 11%;
+        width: 19%; /* Adjust the size as needed */
+        height: auto;
+        pointer-events: none; /* Disable interaction with the video */
+        z-index: 2; /* Ensure it stays above the image */
+    }
+}
+@media screen and (min-width:1299px)  {
+    .corner-video {
+        position: absolute;
+        top: 0;
+        right: 0;
+        margin-top: 3%;
+        margin-right: 6.5%;
+        width: 13%; /* Adjust the size as needed */
+        height: auto;
+        pointer-events: none; /* Disable interaction with the video */
+        z-index: 2; /* Ensure it stays above the image */
+    }
+}
+
+
+/* For responsive behavior */
+.cv__container {
+    position: relative;
+    width: 100%;
 }
